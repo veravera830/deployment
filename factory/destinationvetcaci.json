@@ -1,1 +1,12 @@
-
+{
+	"name": "destinationvetcaci",
+	"properties": {
+		"globalParameters": {
+			"param1": {
+				"type": "string",
+				"value": "asdfg"
+			}
+		}
+	},
+	"location": "eastus"
+}
