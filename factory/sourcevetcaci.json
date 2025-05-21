@@ -1,0 +1,9 @@
+{
+	"name": "sourcevetcaci",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1c4a088f-0673-40c7-a7df-e66e68b6d5bb",
+		"tenantId": "16b3c013-d300-468d-ac64-7eda0820b6d3"
+	}
+}
