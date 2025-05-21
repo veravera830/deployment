@@ -1,0 +1,7 @@
+{
+	"name": "AzureBlobStorage529",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/a46f305f-dbca-4bd1-871e-bbd489fc06e9/resourceGroups/Synapse/providers/Microsoft.Storage/storageAccounts/aaaa1234",
+		"groupId": "blob"
+	}
+}
