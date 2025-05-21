@@ -50,6 +50,18 @@
 				"annotations": []
 			},
 			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/credential1')]",
+			"type": "Microsoft.DataFactory/factories/credentials",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"type": "ManagedIdentity",
+				"typeProperties": {
+					"resourceId": "/subscriptions/a46f305f-dbca-4bd1-871e-bbd489fc06e9/resourceGroups/MI/providers/Microsoft.ManagedIdentity/userAssignedIdentities/SQLcmk"
+				}
+			},
+			"dependsOn": []
 		}
 	]
 }
