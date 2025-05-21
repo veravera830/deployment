@@ -5,6 +5,12 @@
 		"factoryName": {
 			"value": "sourcevetcaci"
 		},
+		"AzureBlobStorage529_properties_privateLinkResourceId": {
+			"value": "/subscriptions/a46f305f-dbca-4bd1-871e-bbd489fc06e9/resourceGroups/Synapse/providers/Microsoft.Storage/storageAccounts/aaaa1234"
+		},
+		"AzureBlobStorage529_properties_groupId": {
+			"value": "blob"
+		},
 		"default_properties_param1_value": {
 			"value": "asdfg"
 		},
