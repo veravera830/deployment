@@ -1,5 +1,13 @@
 {
 	"name": "sourcevetcaci",
+	"properties": {
+		"globalParameters": {
+			"param1": {
+				"type": "string",
+				"value": "asdfg"
+			}
+		}
+	},
 	"location": "eastus",
 	"identity": {
 		"type": "SystemAssigned",
