@@ -1,0 +1,15 @@
+{
+	"name": "destinationvetcaci",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned,UserAssigned",
+		"principalId": "da3be181-747b-46d6-969c-af1bcca3176f",
+		"tenantId": "16b3c013-d300-468d-ac64-7eda0820b6d3",
+		"userAssignedIdentities": {
+			"/subscriptions/a46f305f-dbca-4bd1-871e-bbd489fc06e9/resourcegroups/MI/providers/Microsoft.ManagedIdentity/userAssignedIdentities/SQLcmk": {
+				"clientId": "fec91990-9f2d-4c22-b94c-64b43fe2bcd5",
+				"principalId": "bd60d138-2b86-4fb0-bfe7-79dc78e523ae"
+			}
+		}
+	}
+}
