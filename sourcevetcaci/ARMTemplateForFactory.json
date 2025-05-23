@@ -13,7 +13,7 @@
 		},
 		"Oracle1_properties_typeProperties_server": {
 			"type": "string",
-			"defaultValue": "servername"
+			"defaultValue": "servernameupdated"
 		},
 		"Oracle1_properties_typeProperties_username": {
 			"type": "string",
@@ -69,6 +69,7 @@
 				"version": "2.0",
 				"typeProperties": {
 					"server": "[parameters('Oracle1_properties_typeProperties_server')]",
+					"authenticationType": "Basic",
 					"username": "[parameters('Oracle1_properties_typeProperties_username')]",
 					"password": {
 						"type": "SecureString",
