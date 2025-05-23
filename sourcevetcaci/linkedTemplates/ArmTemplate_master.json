@@ -7,6 +7,18 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "sourcevetcaci"
 		},
+		"Oracle1_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'Oracle1'"
+		},
+		"Oracle1_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "servername"
+		},
+		"Oracle1_properties_typeProperties_username": {
+			"type": "string",
+			"defaultValue": "vera"
+		},
 		"AzureBlobStorage529_properties_privateLinkResourceId": {
 			"type": "string",
 			"defaultValue": "/subscriptions/a46f305f-dbca-4bd1-871e-bbd489fc06e9/resourceGroups/Synapse/providers/Microsoft.Storage/storageAccounts/aaaa1234"
@@ -46,8 +58,17 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
+					"Oracle1_password": {
+						"value": "[parameters('Oracle1_password')]"
+					},
 					"default_properties_param1_value": {
 						"value": "[parameters('default_properties_param1_value')]"
+					},
+					"Oracle1_properties_typeProperties_server": {
+						"value": "[parameters('Oracle1_properties_typeProperties_server')]"
+					},
+					"Oracle1_properties_typeProperties_username": {
+						"value": "[parameters('Oracle1_properties_typeProperties_username')]"
 					},
 					"AzureBlobStorage529_properties_privateLinkResourceId": {
 						"value": "[parameters('AzureBlobStorage529_properties_privateLinkResourceId')]"
