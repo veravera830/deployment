@@ -31,6 +31,10 @@
 			"type": "string",
 			"defaultValue": "vera"
 		},
+		"trigger1_properties_typeProperties_scope": {
+			"type": "string",
+			"defaultValue": "/subscriptions/a46f305f-dbca-4bd1-871e-bbd489fc06e9/resourceGroups/Storage/providers/Microsoft.Storage/storageAccounts/etcaciadlsgen2"
+		},
 		"AzureBlobStorage529_properties_privateLinkResourceId": {
 			"type": "string",
 			"defaultValue": "/subscriptions/a46f305f-dbca-4bd1-871e-bbd489fc06e9/resourceGroups/Synapse/providers/Microsoft.Storage/storageAccounts/aaaa1234"
@@ -38,10 +42,6 @@
 		"AzureBlobStorage529_properties_groupId": {
 			"type": "string",
 			"defaultValue": "blob"
-		},
-		"trigger1_properties_typeProperties_scope": {
-			"type": "string",
-			"defaultValue": "/subscriptions/a46f305f-dbca-4bd1-871e-bbd489fc06e9/resourceGroups/Storage/providers/Microsoft.Storage/storageAccounts/etcaciadlsgen2"
 		},
 		"default_properties_param1_value": {
 			"type": "string",
@@ -95,14 +95,14 @@
 					"Oracle2_properties_typeProperties_username": {
 						"value": "[parameters('Oracle2_properties_typeProperties_username')]"
 					},
+					"trigger1_properties_typeProperties_scope": {
+						"value": "[parameters('trigger1_properties_typeProperties_scope')]"
+					},
 					"AzureBlobStorage529_properties_privateLinkResourceId": {
 						"value": "[parameters('AzureBlobStorage529_properties_privateLinkResourceId')]"
 					},
 					"AzureBlobStorage529_properties_groupId": {
 						"value": "[parameters('AzureBlobStorage529_properties_groupId')]"
-					},
-					"trigger1_properties_typeProperties_scope": {
-						"value": "[parameters('trigger1_properties_typeProperties_scope')]"
 					}
 				}
 			},
