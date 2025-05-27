@@ -14,7 +14,7 @@
 		"type": "BlobEventsTrigger",
 		"typeProperties": {
 			"blobPathBeginsWith": "/2502140050002986/blobs/",
-			"blobPathEndsWith": "*.txt",
+			"blobPathEndsWith": ".txt",
 			"ignoreEmptyBlobs": false,
 			"scope": "/subscriptions/a46f305f-dbca-4bd1-871e-bbd489fc06e9/resourceGroups/Storage/providers/Microsoft.Storage/storageAccounts/etcaciadlsgen2",
 			"events": [
