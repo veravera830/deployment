@@ -11,11 +11,23 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'Oracle1'"
 		},
+		"Oracle2_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'Oracle2'"
+		},
 		"Oracle1_properties_typeProperties_server": {
 			"type": "string",
 			"defaultValue": "servernameupdated"
 		},
 		"Oracle1_properties_typeProperties_username": {
+			"type": "string",
+			"defaultValue": "vera"
+		},
+		"Oracle2_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "ss"
+		},
+		"Oracle2_properties_typeProperties_username": {
 			"type": "string",
 			"defaultValue": "vera"
 		},
@@ -26,6 +38,10 @@
 		"AzureBlobStorage529_properties_groupId": {
 			"type": "string",
 			"defaultValue": "blob"
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"type": "string",
+			"defaultValue": "/subscriptions/a46f305f-dbca-4bd1-871e-bbd489fc06e9/resourceGroups/Storage/providers/Microsoft.Storage/storageAccounts/etcaciadlsgen2"
 		},
 		"default_properties_param1_value": {
 			"type": "string",
@@ -61,6 +77,9 @@
 					"Oracle1_password": {
 						"value": "[parameters('Oracle1_password')]"
 					},
+					"Oracle2_password": {
+						"value": "[parameters('Oracle2_password')]"
+					},
 					"default_properties_param1_value": {
 						"value": "[parameters('default_properties_param1_value')]"
 					},
@@ -70,11 +89,20 @@
 					"Oracle1_properties_typeProperties_username": {
 						"value": "[parameters('Oracle1_properties_typeProperties_username')]"
 					},
+					"Oracle2_properties_typeProperties_server": {
+						"value": "[parameters('Oracle2_properties_typeProperties_server')]"
+					},
+					"Oracle2_properties_typeProperties_username": {
+						"value": "[parameters('Oracle2_properties_typeProperties_username')]"
+					},
 					"AzureBlobStorage529_properties_privateLinkResourceId": {
 						"value": "[parameters('AzureBlobStorage529_properties_privateLinkResourceId')]"
 					},
 					"AzureBlobStorage529_properties_groupId": {
 						"value": "[parameters('AzureBlobStorage529_properties_groupId')]"
+					},
+					"trigger1_properties_typeProperties_scope": {
+						"value": "[parameters('trigger1_properties_typeProperties_scope')]"
 					}
 				}
 			},
