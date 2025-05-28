@@ -32,6 +32,9 @@
 		"Oracle2_properties_typeProperties_username": {
 			"value": "vera"
 		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/a46f305f-dbca-4bd1-871e-bbd489fc06e9/resourceGroups/Synapse/providers/Microsoft.Storage/storageAccounts/aaaa1234"
+		},
 		"AzureBlobStorage529_properties_privateLinkResourceId": {
 			"value": "/subscriptions/a46f305f-dbca-4bd1-871e-bbd489fc06e9/resourceGroups/Synapse/providers/Microsoft.Storage/storageAccounts/aaaa1234"
 		},
